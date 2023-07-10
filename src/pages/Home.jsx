@@ -71,14 +71,6 @@ const Home = () => {
             />
           </li>
         </ul>
-        <ul className="sci">
-          <li>
-            <a href="#">Faebook</a>
-          </li>
-          <li>
-            <a href="#">Instagram</a>
-          </li>
-        </ul>
       </section>
     </>
   );
