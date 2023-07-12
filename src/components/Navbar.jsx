@@ -21,13 +21,12 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <a href="#">What's New</a>
-          </li>
-          <li>
             <a href="#">Newsletter</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <Link to="/Contact" className="nav-links">
+              Contacts
+            </Link>
           </li>
         </ul>
       </header>

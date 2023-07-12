@@ -7,6 +7,15 @@
   font-family: "Poppins", sans-serif;
 }
 
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden; /* Add this line to hide horizontal scrollbar */
+}
+
 section {
   position: relative;
   width: 100%;
@@ -17,6 +26,7 @@ section {
   align-items: center;
   background: #0062be;
   transition: 0.5s;
+  overflow-x: hidden; /* Add this line to hide horizontal scrollbar */
 }
 
 header {

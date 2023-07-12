@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../App.css";
 import NIKE270 from "../assets/Nike Air Max 270 Liquid Metal Sneakers in Black_Photo Blue_Blue Fury.jpg";
 import NIKE97 from "../assets/Nike Air Max 97 Silver Bullet US Release Date _ SneakerNews_com.jpg";
@@ -15,6 +15,17 @@ const Home = () => {
     // Implement your logic to change the background color here
     document.documentElement.style.setProperty("--bg-color", color);
   };
+
+  useEffect(() => {
+    // Set the initial background color when the component mounts
+    document.documentElement.style.setProperty("--bg-color", "#0062be");
+
+    // Clean up the effect when the component unmounts
+    return () => {
+      // Reset the background color to the initial color when the component unmounts
+      document.documentElement.style.setProperty("--bg-color", "#0062be");
+    };
+  }, []);
 
   return (
     <>

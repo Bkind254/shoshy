@@ -1,0 +1,89 @@
+.container.contact__container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 41% 78%;
+  gap: 12%;
+  place-items: center; /* Align items in the center vertically and horizontally */
+  justify-content: center; /* Center the entire grid horizontally */
+}
+
+.contact__options {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.contact__option {
+  padding: 1.2rem;
+  border-radius: 1.2rem;
+  text-align: center;
+  border: 1px solid;
+  border-color: rgb(255, 255, 255);
+}
+
+.contact__option-icon {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact__option a {
+  margin-top: 0.7rem;
+  display: inline-block;
+  font-size: 0.8rem;
+}
+
+.contact__option h5 {
+  color: rgb(255, 255, 255);
+}
+
+/*==================== FORM ====================*/
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  width: 100%;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background-color: #095ea3;
+  border: 2px solid rgb(255, 255, 255);
+  resize: none;
+  color: white;
+}
+.btn {
+  display: inline-flex;
+  padding: 10px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-radius: 8px;
+  color: #003355;
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.288);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #095ea3;
+  color: #fff;
+}
+
+/*======== MEDIA QUERIES (tabs) ========*/
+@media screen and (max-width: 1024px) {
+  .container.contact__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+/*======== MEDIA QUERIES (phones) ========*/
+@media screen and (max-width: 600px) {
+  .container.contact__container {
+    width: 90%;
+  }
+}
