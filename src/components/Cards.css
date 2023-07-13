@@ -15,13 +15,14 @@ body {
 
 .card-container {
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 2.5rem;
   padding: 2.5rem;
 }
 
 .card {
   position: relative;
-  width: 600px;
+  width: 537px;
   height: 350px;
   background: #000;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.22);
@@ -33,7 +34,7 @@ body {
 
 .card .imgBx {
   position: relative;
-  min-width: 300px;
+  /*min-width: 300px;*/
   height: 100%;
   background: #fff;
   display: flex;
@@ -54,7 +55,7 @@ body {
 
 .card .details {
   position: absolute;
-  left: 300px;
+  left: 250px;
   min-width: 300px;
   height: 100%;
   background: #003355;
