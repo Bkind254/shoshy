@@ -171,3 +171,21 @@ header ul li a {
 .sec {
   background-color: var(--bg-color);
 }
+
+/*=========MEDIA QURIES=====*/
+@media screen and (max-width: 1024px) {
+  section {
+    position: inherit;
+  }
+
+  header {
+    width: 85%;
+  }
+
+  .content {
+    left: 4rem;
+  }
+  .thumb {
+    margin: 0;
+  }
+}
