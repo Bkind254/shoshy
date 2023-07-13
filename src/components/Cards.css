@@ -10,7 +10,8 @@
 body {
   justify-content: center;
   position: relative;
-  background: linear-gradient(#003355, #003355 50%, #fff8f3 50%, #fff8f3 100%);
+  /*background: linear-gradient(#003355, #003355 50%, #fff8f3 50%, #fff8f3 100%);*/
+  background: linear-gradient(#1e1e1e, #1e1e1e 50%, #fff8f3 50%, #fff8f3 100%);
 }
 
 .card-container {

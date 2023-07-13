@@ -99,6 +99,32 @@ const Cards = ({
           </div>
         </div>
       </div>
+
+      {/*               CARD 2                */}
+      <div className="card">
+        <div className="imgBx">
+          <img src={image1} alt="shoe" />
+        </div>
+        <div className="details">
+          <h3>
+            {title1}
+            <br />
+            <span>{subTitle1}</span>
+          </h3>
+          <h4>Products Details</h4>
+          <p>{details1}</p>
+          <h4>Size</h4>
+          <ul className="size">
+            {sizes1.map((size, index) => (
+              <li key={index}>{size}</li>
+            ))}
+          </ul>
+          <div className="group">
+            <h2>${price1}</h2>
+            <a href="#">Buy Now</a>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
