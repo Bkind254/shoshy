@@ -1,7 +1,7 @@
 .container.contact__container {
-  width: 100%;
-  display: grid;
-  grid-template-columns: 41% 78%;
+  width: 1000px;
+  display: flex;
+  /*grid-template-columns: 41% 78%;*/
   gap: 12%;
   place-items: center; /* Align items in the center vertically and horizontally */
   justify-content: center; /* Center the entire grid horizontally */
@@ -82,8 +82,12 @@ textarea {
 }
 
 /*======== MEDIA QUERIES (phones) ========*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 720px) {
   .container.contact__container {
-    width: 90%;
+    width: 100%;
+    /*
+    gap: 12%;
+    place-items: center;
+    justify-content: center;*/
   }
 }

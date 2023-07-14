@@ -10,8 +10,8 @@
 body {
   margin: 0;
   display: flex;
-  place-items: center;
-  min-width: 320px;
+  /* place-items: center;
+  min-width: 320px;*/
   min-height: 100vh;
   overflow-x: hidden; /* Add this line to hide horizontal scrollbar */
 }
@@ -169,26 +169,36 @@ header ul li a {
 
 .sec {
   background-color: var(--bg-color);
-  overflow-y: hidden; /* Add this line to hide horizontal scrollbar */
 }
 
-/*=========MEDIA QURIES=====*/
+/*=========MEDIA QURIES=====
 @media screen and (max-width: 1024px) {
-  section {
-    position: inherit;
-  }
-
-  .content {
-    left: 4rem;
-  }
   .thumb {
     margin: 0;
   }
-}
+}*/
 
 @media screen and (max-width: 600px) {
   header {
     padding: 20px 7px;
     width: 90%;
+  }
+
+  body {
+    display: block;
+    width: 193%;
+  }
+
+  .content .imgBox {
+    margin-top: -343px;
+  }
+
+  .thumb {
+    margin: 3rem;
+  }
+
+  .content .textBox p {
+    width: 173%;
+    padding-top: 2rem;
   }
 }
