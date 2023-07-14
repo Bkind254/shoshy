@@ -221,7 +221,7 @@ header ul li a {
     font-size: 14px;
   }
   .content .textBox p {
-    width: 77%;
+    width: 76%;
     font-size: 15px;
   }
   .content .textBox h2 {
@@ -234,7 +234,7 @@ header ul li a {
   }
 
   .thumb {
-    left: -12rem;
+    right: 200px;
     position: inherit;
     top: -8rem;
   }

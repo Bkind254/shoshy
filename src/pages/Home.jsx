@@ -50,7 +50,7 @@ const Home = () => {
             <img src={currentImage} className="pepsi" alt="product" />
           </div>
         </div>
-        <ul className="thumb">
+        <ol className="thumb">
           <li>
             <img
               src={NIKE270}
@@ -81,7 +81,7 @@ const Home = () => {
               }}
             />
           </li>
-        </ul>
+        </ol>
       </section>
     </>
   );
