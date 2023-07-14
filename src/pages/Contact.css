@@ -73,21 +73,27 @@ textarea {
   color: #fff;
 }
 
-/*======== MEDIA QUERIES (tabs) ========*/
+/*======== MEDIA QUERIES (tabs) ========
 @media screen and (max-width: 1024px) {
+  .container.contact__container {
+   
+  }
+}*/
+
+/*======== MEDIA QUERIES (phones) ========*/
+@media screen and (max-width: 600px) {
   .container.contact__container {
     grid-template-columns: 1fr;
     gap: 2rem;
-  }
-}
-
-/*======== MEDIA QUERIES (phones) ========*/
-@media screen and (max-width: 720px) {
-  .container.contact__container {
     width: 100%;
+    display: grid;
     /*
     gap: 12%;
     place-items: center;
     justify-content: center;*/
+  }
+
+  form {
+    width: 140%;
   }
 }
