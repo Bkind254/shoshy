@@ -23,7 +23,7 @@ body {
 
 .card {
   position: relative;
-  width: 537px;
+  width: 535px;
   height: 350px;
   background: #000;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.22);
@@ -32,7 +32,13 @@ body {
   transition: 0.5s ease-in-out;
   border-radius: 10px;
 }
-
+/*
+.card {
+  padding: 0.5rem;
+  border-radius: 2rem;
+  border: 1px solid;
+  border-color: var(--color-primary-variant);
+}*/
 .card .imgBx {
   position: relative;
   /*min-width: 300px;*/
@@ -48,6 +54,7 @@ body {
 .card .imgBx img {
   max-width: 250px;
   transition: 0.5s ease-in-out;
+  overflow: hidden;
 }
 
 .card:hover .imgBx img {
@@ -141,9 +148,6 @@ body {
 
 .card .details .group {
   position: relative;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   margin-top: 20px;
 }
 
@@ -163,7 +167,7 @@ body {
 
 .card .details .group a {
   display: inline-flex;
-  padding: 10px 25px;
+  padding: 10px 16px;
   background: #fff;
   text-decoration: none;
   text-transform: uppercase;
@@ -178,11 +182,21 @@ body {
   background: #095ea3;
   color: #fff;
 }
-
-.tag {
+*/ .tag {
   position: absolute;
   bottom: 8px;
   right: 10px;
   color: rgba(151, 150, 150, 0.781);
   font-size: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .card-container {
+    grid-template-columns: repeat(
+      1,
+      1fr
+    ); /*
+    gap: 2.5rem;
+    padding: 2.5rem;*/
+  }
 }
