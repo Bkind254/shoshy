@@ -204,7 +204,7 @@ header ul li a {
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 450px) {
   .sec {
     padding: 96px 1px;
   }
@@ -221,7 +221,7 @@ header ul li a {
     font-size: 14px;
   }
   .content .textBox p {
-    width: 76%;
+    width: 77%;
     font-size: 15px;
   }
   .content .textBox h2 {

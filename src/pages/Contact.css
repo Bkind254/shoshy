@@ -98,7 +98,7 @@ textarea {
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 450px) {
   #contact {
     padding: 0;
     right: 24.5rem;
