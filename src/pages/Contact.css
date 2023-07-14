@@ -73,6 +73,10 @@ textarea {
   color: #fff;
 }
 
+#contact {
+  padding: 0;
+}
+
 /*======== MEDIA QUERIES (tabs) ========
 @media screen and (max-width: 1024px) {
   .container.contact__container {
@@ -87,13 +91,17 @@ textarea {
     gap: 2rem;
     width: 100%;
     display: grid;
-    /*
-    gap: 12%;
-    place-items: center;
-    justify-content: center;*/
   }
 
   form {
     width: 140%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  #contact {
+    padding: 0;
+    right: 24.5rem;
+    width: 35%;
   }
 }

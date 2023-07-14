@@ -208,3 +208,30 @@ body {
     margin-left: -15%;
   }
 }
+
+@media screen and (max-width: 360px) {
+  .card {
+    width: 356px;
+    right: 18.4rem;
+  }
+
+  .card .imgBx img {
+    max-width: 175px;
+  }
+
+  .card .details {
+    left: 164px;
+  }
+
+  .card .details h3 {
+    font-size: 1em;
+  }
+
+  .card .details p {
+    font-size: 0.5em;
+  }
+
+  .card .details .size li {
+    width: 27px;
+  }
+}

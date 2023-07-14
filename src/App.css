@@ -19,7 +19,7 @@ body {
 section {
   position: relative;
   width: 100%;
-  min-height: 93vh;
+  /*min-height: 93vh;*/
   padding: 90px;
   display: flex;
   justify-content: space-between;
@@ -59,7 +59,7 @@ header ul li a {
   color: #fff;
   font-weight: 400;
   margin-left: 40px;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .content {
@@ -73,7 +73,7 @@ header ul li a {
 .content .textBox {
   position: relative;
   max-width: 600px;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 .content .textBox h2 {
@@ -201,5 +201,41 @@ header ul li a {
   .content .textBox p {
     width: 173%;
     padding-top: 2rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .sec {
+    padding: 96px 1px;
+  }
+
+  header {
+    padding: 18px 0;
+    width: 70%;
+  }
+  header .logo {
+    max-height: 52px;
+  }
+
+  header ul {
+    font-size: 14px;
+  }
+  .content .textBox p {
+    width: 77%;
+    font-size: 15px;
+  }
+  .content .textBox h2 {
+    font-size: 2.5em;
+    margin-top: -5rem;
+  }
+
+  .content .imgBox {
+    display: none;
+  }
+
+  .thumb {
+    left: -12rem;
+    position: inherit;
+    top: -8rem;
   }
 }
