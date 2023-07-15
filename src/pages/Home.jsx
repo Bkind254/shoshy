@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import "../App.css";
 import NIKE270 from "../assets/Nike Air Max 270 Liquid Metal Sneakers in Black_Photo Blue_Blue Fury.jpg";
 import NIKE97 from "../assets/Nike Air Max 97 Silver Bullet US Release Date _ SneakerNews_com.jpg";
@@ -44,7 +45,11 @@ const Home = () => {
               fugiat voluptates vel consequuntur quibusdam! Lorem ipsum dolor
               sit amet
             </p>
-            <a href="#">View All Products</a>
+            <li>
+              <Link to="/Products" className="home-link">
+                VIEW ALL PRODUCTS
+              </Link>
+            </li>
           </div>
           <div className="imgBox">
             <img src={currentImage} className="pepsi" alt="product" />
