@@ -19,7 +19,7 @@ const Navbar = () => {
               Products
             </Link>
           </li>
-          {/*
+
           <li>
             <a href="#" className="nav-links">
               Newsletter
@@ -29,7 +29,7 @@ const Navbar = () => {
             <Link to="/Contact" className="nav-links">
               Contacts
             </Link>
-          </li>*/}
+          </li>
         </ul>
       </header>
     </div>
