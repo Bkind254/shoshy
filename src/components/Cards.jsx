@@ -74,7 +74,7 @@ const Cards = ({
         </div>
       </div>
 
-      {/*               CARD 3                */}
+      {/*              CARD 3              */}
       <div className="card">
         <div className="imgBx">
           <img src={image2} alt="shoe" />
@@ -100,7 +100,7 @@ const Cards = ({
         </div>
       </div>
 
-      {/*               CARD 2                */}
+      {/*               CARD 2           */}
       <div className="card">
         <div className="imgBx">
           <img src={image1} alt="shoe" />

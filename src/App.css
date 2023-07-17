@@ -16,15 +16,15 @@ body {
   overflow-x: hidden; /* Add this line to hide horizontal scrollbar */
 }
 
-section {
+.sec {
+  background-color: var(--bg-color);
   position: relative;
   width: 100%;
-  /*min-height: 93vh;*/
   padding: 90px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #0062be;
+  /*background: #0062be;*/
   transition: 0.5s;
   padding-bottom: 5rem;
 }
@@ -166,10 +166,6 @@ header ul li a {
 
 :root {
   --bg-color: #0062be;
-}
-
-.sec {
-  background-color: var(--bg-color);
 }
 
 /*=========MEDIA QURIES=====

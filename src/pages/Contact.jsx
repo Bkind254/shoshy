@@ -20,7 +20,7 @@ const Contact = () => {
     e.target.reset();
   };
   return (
-    <section id="contact">
+    <section className="sec" id="contact">
       <div className="container contact__container">
         <div className="contact__options">
           <article className="contact__option">
