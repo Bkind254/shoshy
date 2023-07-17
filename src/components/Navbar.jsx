@@ -7,6 +7,7 @@ const Navbar = () => {
     <div>
       <header>
         <li className="logo">SHOSHY</li>
+
         <ul>
           <li>
             <Link to="/Home" className="nav-links">
@@ -19,7 +20,9 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <a href="#">Newsletter</a>
+            <a href="#" className="nav-links">
+              Newsletter
+            </a>
           </li>
           <li>
             <Link to="/Contact" className="nav-links">

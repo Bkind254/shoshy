@@ -45,11 +45,10 @@ const Home = () => {
               fugiat voluptates vel consequuntur quibusdam! Lorem ipsum dolor
               sit amet
             </p>
-            <li>
-              <Link to="/Products" className="home-link">
-                VIEW ALL PRODUCTS
-              </Link>
-            </li>
+
+            <Link to="/Products" className="home-link">
+              VIEW ALL PRODUCTS
+            </Link>
           </div>
           <div className="imgBox">
             <img src={currentImage} className="pepsi" alt="product" />
