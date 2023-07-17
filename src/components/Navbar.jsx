@@ -1,14 +1,12 @@
 import React from "react";
-import LOGO from "../assets/Nike decide deixar de vender seus produtos na Amazon.png";
+import "./Navbar.css";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div>
       <header>
-        <a href="#">
-          <img src={LOGO} className="logo" alt="logo-here" />
-        </a>
+        <li className="logo">SHOSHY</li>
         <ul>
           <li>
             <Link to="/Home" className="nav-links">
